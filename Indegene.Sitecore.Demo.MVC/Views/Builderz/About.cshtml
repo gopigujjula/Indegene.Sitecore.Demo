@@ -1,0 +1,32 @@
+﻿@using Sitecore.Mvc
+@using Indegene.Sitecore.Demo.MVC.Models
+@model AboutViewModel
+
+@if (Model != null && Model.DataSourceItem != null)
+{
+    <!-- About Start -->
+    <div class="about wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="about-img">
+                        @Html.Sitecore().Field("Image",Model.DataSourceItem)
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="section-header text-left">
+                        @*<p>@Html.Sitecore().Field("{163F6C64-92E1-43A7-8D3D-F9D8D40D5CAC}", Model.DataSourceItem)</p>*@
+                        <p>@Model.Title</p>
+                        @*<h2>@Html.Sitecore().Field("SubTitle", Model.DataSourceItem)</h2>*@
+                        <h2>@Model.SubTitle</h2>
+                    </div>
+                    <div class="about-text">
+                        @Html.Sitecore().Field("Description", Model.DataSourceItem)
+                        @Html.Sitecore().Field("Link", Model.DataSourceItem, new {@class="btn" })                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+}
