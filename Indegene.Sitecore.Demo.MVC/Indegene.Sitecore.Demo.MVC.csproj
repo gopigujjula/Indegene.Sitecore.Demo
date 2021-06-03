@@ -108,7 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Models\AboutViewModel.cs" />
+    <Compile Include="Models\CarouselViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -128,6 +130,7 @@
     <Content Include="Assets\lib\slick\slick.less" />
     <Content Include="Assets\lib\slick\slick.scss" />
     <Content Include="App_Config\Include\SiteDefinition.config" />
+    <None Include="Properties\PublishProfiles\SCXP93.pubxml" />
     <None Include="Properties\PublishProfiles\SCXP930.pubxml" />
     <Content Include="Assets\css\style.css" />
     <Content Include="Assets\img\about.jpg" />
@@ -212,8 +215,16 @@
     <Content Include="Views\Layouts\BasicLayout.cshtml" />
     <Content Include="Views\Builderz\PageData.cshtml" />
     <Content Include="Views\Builderz\About.cshtml" />
+    <Content Include="Views\Builderz\CarouselSlider.cshtml" />
     <None Include="Views\web.config" />
     <None Include="packages.config" />
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
