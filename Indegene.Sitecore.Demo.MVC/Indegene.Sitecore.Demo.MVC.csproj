@@ -109,8 +109,10 @@
   <ItemGroup>
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\CarouselController.cs" />
+    <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Models\AboutViewModel.cs" />
     <Compile Include="Models\CarouselViewModel.cs" />
+    <Compile Include="Models\HeaderNavigationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -216,6 +218,7 @@
     <Content Include="Views\Builderz\PageData.cshtml" />
     <Content Include="Views\Builderz\About.cshtml" />
     <Content Include="Views\Builderz\CarouselSlider.cshtml" />
+    <Content Include="Views\Builderz\HeaderNavigation.cshtml" />
     <None Include="Views\web.config" />
     <None Include="packages.config" />
     <None Include="Web.config" />
