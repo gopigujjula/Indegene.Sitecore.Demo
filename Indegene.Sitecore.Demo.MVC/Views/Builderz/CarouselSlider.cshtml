@@ -1,4 +1,6 @@
 ﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc.Extensions
 @using Indegene.Sitecore.Demo.MVC.Models
 @model CarouselViewModel
 
@@ -15,18 +17,21 @@
         <div class="carousel-inner">
             @foreach (var slide in Model.Slides)
             {
-                <div class="carousel-item @slide.Style">
-                    @slide.BackgroundImage
+            <div class="carousel-item @slide.Style">
+                @slide.BackgroundImage
+                @using (Html.EditFrame(Model.DatasourcePath, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Builderz/Carousel Slide Frame", "My custom title", "My custom tooltip", "cssClassName", null))
+                {
                     <div class="carousel-caption">
                         <p class="animated fadeInRight">
                             @slide.Title
                         </p>
                         <h1 class="animated fadeInLeft">@slide.SubTitle</h1>
                         @*<a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">
-                            Get A Quote</a>*@
+                Get A Quote</a>*@
                         @slide.Link
                     </div>
-                </div>
+                }
+            </div>
             }
         </div>
         @if (Model.Slides.Count > 1)

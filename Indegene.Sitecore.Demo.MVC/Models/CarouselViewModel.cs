@@ -7,6 +7,7 @@ namespace Indegene.Sitecore.Demo.MVC.Models
 {
     public class CarouselViewModel
     {
+        public string DatasourcePath { get; set; }
         public List<Slide> Slides { get; set; }
     }
 

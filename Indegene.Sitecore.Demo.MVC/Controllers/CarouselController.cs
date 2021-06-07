@@ -23,6 +23,7 @@ namespace Indegene.Sitecore.Demo.MVC.Controllers
 
             //read datasource item
             var item = RenderingContext.Current?.Rendering.Item;
+            model.DatasourcePath = item.ID.Guid.ToString();
 
             //Rendering parameters
             var slideCountParameter = RenderingContext.Current?.Rendering.Parameters["slidecount"];
