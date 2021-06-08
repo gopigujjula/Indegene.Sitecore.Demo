@@ -56,6 +56,9 @@
     <Reference Include="Sitecore.Mvc, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Mvc.9.3.0\lib\net471\Sitecore.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Mvc.Analytics, Version=14.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Mvc.Analytics.9.3.0\lib\net471\Sitecore.Mvc.Analytics.dll</HintPath>
+    </Reference>
     <Reference Include="sysglobl" />
     <Reference Include="System.Design" />
     <Reference Include="System.DirectoryServices" />
@@ -122,12 +125,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComputedFields\AuthorNameComputedField.cs" />
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Controllers\BuilderzSearchController.cs" />
     <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Models\AboutViewModel.cs" />
+    <Compile Include="Models\BookModel.cs" />
+    <Compile Include="Models\BookSearchResult.cs" />
     <Compile Include="Models\CarouselViewModel.cs" />
+    <Compile Include="Models\CustomBookSearchResultItem.cs" />
     <Compile Include="Models\HeaderNavigationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -148,6 +156,8 @@
     <Content Include="Assets\lib\slick\slick.less" />
     <Content Include="Assets\lib\slick\slick.scss" />
     <Content Include="App_Config\Include\SiteDefinition.config" />
+    <Content Include="App_Config\Include\Builderz.Web.Index.config" />
+    <Content Include="App_Config\Include\Builderz.ContentSearch.Solr.Index.Web.config" />
     <None Include="Properties\PublishProfiles\SCXP93.pubxml" />
     <None Include="Properties\PublishProfiles\SCXP930.pubxml" />
     <Content Include="Assets\css\style.css" />
@@ -235,6 +245,9 @@
     <Content Include="Views\Builderz\About.cshtml" />
     <Content Include="Views\Builderz\CarouselSlider.cshtml" />
     <Content Include="Views\Builderz\HeaderNavigation.cshtml" />
+    <Content Include="Views\Builderz\Search.cshtml" />
+    <Content Include="Views\Builderz\BookList.cshtml" />
+    <Content Include="Views\Builderz\BookDetails.cshtml" />
     <None Include="Views\web.config" />
     <None Include="packages.config" />
     <None Include="Web.config" />
@@ -247,7 +260,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\BuilderzSearch\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

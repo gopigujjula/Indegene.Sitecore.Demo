@@ -1,0 +1,54 @@
+﻿@using Sitecore.Mvc
+@using Indegene.Sitecore.Demo.MVC.Models
+@model BookSearchResult
+
+@if (Model != null && Model.Books != null && Model.Books.Any())
+{
+<!-- Blog Start -->
+<div class="blog">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Latest Books</p>
+            <h2>Latest From Our Book Store</h2>
+        </div>
+        <div class="row blog-page">
+            @foreach (var bookItem in Model.Books)
+            {
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="blog-item">
+                    <div class="blog-img">
+                        @*@Html.Sitecore().Field("Front Cover", bookItem.Book)*@
+                    </div>
+                    <div class="blog-title">
+                        @*<h3>@Html.Sitecore().Field("Title", bookItem)</h3>*@
+                        <h3>@bookItem.Title</h3>
+                        <a class="btn" href="">+</a>
+                    </div>
+                    <div class="blog-meta">
+                        <p>By<a href="">@bookItem.AuthorName</a></p>
+                        <p>In<a href="">@bookItem.Publisher</a></p>
+                    </div>
+                    <div class="blog-text">
+                        <p>
+                            @bookItem.Summary
+                        </p>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+        @*<div class="row">
+            <div class="col-12">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+        </div>*@
+    </div>
+</div>
+<!-- Blog End -->
+}

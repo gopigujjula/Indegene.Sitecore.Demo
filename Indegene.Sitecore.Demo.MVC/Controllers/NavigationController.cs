@@ -41,8 +41,7 @@ namespace Indegene.Sitecore.Demo.MVC.Controllers
         {
             if (item != null)
             {
-                DefaultItemUrlBuilderOptions defaultItemUrlBuilderOptions = new DefaultItemUrlBuilderOptions();
-                defaultItemUrlBuilderOptions.AlwaysIncludeServerUrl = true;
+                DefaultItemUrlBuilderOptions defaultItemUrlBuilderOptions = new DefaultItemUrlBuilderOptions();                
                 ItemUrlBuilder itemUrlBuilder = new ItemUrlBuilder(defaultItemUrlBuilderOptions);
 
                 return new NavigationModel()
