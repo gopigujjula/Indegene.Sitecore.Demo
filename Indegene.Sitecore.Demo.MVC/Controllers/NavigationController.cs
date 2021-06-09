@@ -39,6 +39,7 @@ namespace Indegene.Sitecore.Demo.MVC.Controllers
 
         public NavigationModel GetNavigation(Item item)
         {
+            
             if (item != null)
             {
                 DefaultItemUrlBuilderOptions defaultItemUrlBuilderOptions = new DefaultItemUrlBuilderOptions();                

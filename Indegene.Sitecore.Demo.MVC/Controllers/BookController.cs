@@ -10,15 +10,22 @@ using System.Web.Mvc;
 using SitecoreKernel = Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.ContentSearch.Linq.Utilities;
+using Glass.Mapper.Sc.Web.Mvc;
 
 namespace Indegene.Sitecore.Demo.MVC.Controllers
 {
     public class BookController : Controller
     {
-        // GET: Book
+        IMvcContext _mvcContext;
+        public BookController()
+        {
+            _mvcContext = new MvcContext();
+        }
         public ActionResult BookDetails()
         {
-            return View("~/Views/Builderz/BookDetails.cshtml");
+            var model = _mvcContext.GetPageContextItem<Book>();
+
+            return View("~/Views/Builderz/BookDetails.cshtml", model);
         }
         public ActionResult BookList()
         {

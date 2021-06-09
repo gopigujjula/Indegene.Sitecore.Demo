@@ -1,1 +1,36 @@
-﻿
+﻿@using Indegene.Sitecore.Demo.MVC.Models
+@using Glass.Mapper.Sc.Web.Mvc
+
+@model Book
+@if (Model != null)
+{
+    <!-- Single Post Start-->
+    <div class="single">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="single-content wow fadeInUp">
+                        <h2>@Html.Glass().Editable(Model, f => f.Title)</h2>
+                        @if (Model.BookLanguage != null)
+                        {
+                            @Model.BookLanguage.Title;
+                        }
+                        @if (Model.Authors != null)
+                        {
+                            foreach (var author in Model.Authors)
+                            {
+                            @author.FirstName;
+                            }
+                        }
+                        <br/>
+                        @Html.Glass().RenderImage(Model, f => f.FrontCover)                        
+                        @Html.Glass().Editable(Model, f => f.Description)
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Single Post End-->
+}
