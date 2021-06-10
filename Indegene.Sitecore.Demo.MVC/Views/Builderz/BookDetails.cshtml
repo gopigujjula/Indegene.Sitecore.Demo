@@ -23,7 +23,7 @@
                             }
                         }
                         <br/>
-                        @Html.Glass().RenderImage(Model, f => f.FrontCover)                        
+                        @Html.Glass().RenderImage(Model, f => f.FrontCover,isEditable:true)                        
                         @Html.Glass().Editable(Model, f => f.Description)
                     </div>
                 </div>

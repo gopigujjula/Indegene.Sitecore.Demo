@@ -12,21 +12,21 @@ namespace Indegene.Sitecore.Demo.MVC.Models
     public class GlassBase
     {
         [SitecoreId]
-        public Guid Id { get; set; }
+        public virtual Guid Id { get; set; }
 
         [SitecoreInfo(SitecoreInfoType.Url)]
-        public string Url { get; set; }
+        public virtual string Url { get; set; }
         
         [SitecoreInfo(SitecoreInfoType.Name)]
-        string ItemName { get; }
+        public virtual string ItemName { get; }
 
         [SitecoreInfo(SitecoreInfoType.TemplateName)]
-        string TemplateName { get; set; }
+        public virtual string TemplateName { get; set; }
 
         [SitecoreInfo(SitecoreInfoType.TemplateId)]
-        Guid TemplateId { get; set; }
+        public virtual Guid TemplateId { get; set; }
 
         [SitecoreInfo(SitecoreInfoType.Language)]
-        Language Language { get; }
+        public virtual Language Language { get; }
     }
 }

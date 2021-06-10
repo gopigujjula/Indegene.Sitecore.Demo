@@ -30,7 +30,10 @@ namespace Indegene.Sitecore.Demo.MVC.Models
     [SitecoreType(TemplateId = "{F09E9CB8-5FE1-4036-8D37-F810137CD30F}")]
     public class BookTaxonomy:GlassBase
     {
+        [SitecoreField("Title")]
         public virtual string Title { get; set; }
+
+        [SitecoreField("Description")]
         public virtual string Description { get; set; }
     }
 
