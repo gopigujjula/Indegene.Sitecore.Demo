@@ -1,0 +1,20 @@
+﻿---
+ID: "d87b7e6d-5287-4a30-8c77-8587bdee2723"
+Parent: "047a70c9-650c-40e1-8b80-928b63c0bd8c"
+Template: "25812aaa-6bda-44cd-a19e-4921eba02271"
+Path: /sitecore/content/Builderz/Data/Carousel/Slider/Carousel Slider
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0514c169-7c75-4c4e-b826-1047ed982293"
+      Hint: Slides
+      Type: Treelist
+      Value: |
+        {5F6F774A-2504-4B59-BCAE-67D3710A7BE3}
+        {A4AC442D-0299-4937-AF80-362DE461FE9D}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T041345Z

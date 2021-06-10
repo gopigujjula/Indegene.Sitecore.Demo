@@ -1,0 +1,21 @@
+﻿---
+ID: "608579ac-7edd-45ad-9538-3179003222a6"
+Parent: "507172c2-8dc7-489a-8e54-e7091455bd2a"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Builderz/Data/Carousel
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A56B34E3-B918-437B-8C7A-63AE8C9EE684}
+    {48E7BE15-EB5D-4B2E-BB63-1352282C9C29}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T040711Z

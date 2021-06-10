@@ -1,0 +1,14 @@
+﻿---
+ID: "64d26f5c-68c2-49c2-a1b4-c43c2e87b6d0"
+Parent: "507172c2-8dc7-489a-8e54-e7091455bd2a"
+Template: "42b95190-60ec-4575-b8b3-3753f2700264"
+Path: /sitecore/content/Builderz/Data/Book Taxonomy
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190511T054305Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "857deaad-e135-4781-9f70-3a6c285d6ef3"
+Parent: "608579ac-7edd-45ad-9538-3179003222a6"
+Template: "48e7be15-eb5d-4b2e-bb63-1352282c9c29"
+Path: /sitecore/content/Builderz/Data/Carousel/Slides
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T040728Z

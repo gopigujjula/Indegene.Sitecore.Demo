@@ -1,0 +1,28 @@
+﻿---
+ID: "5f6f774a-2504-4b59-bcae-67d3710a7be3"
+Parent: "857deaad-e135-4781-9f70-3a6c285d6ef3"
+Template: "89fbb931-d737-4468-926d-e14e1a11ee2a"
+Path: /sitecore/content/Builderz/Data/Carousel/Slides/We Are Professional
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T041101Z
+    - ID: "690e20b7-7b02-487c-b294-57f14a64755a"
+      Hint: Title
+      Value: We Are Professional
+    - ID: "b7c221ec-e8b7-457c-8caf-43e5dd697517"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{090A3572-EF25-4FC5-A982-25EBC5F3AF7E}" />
+    - ID: "c1f03551-e151-4e43-bd15-f20da557abc7"
+      Hint: Subtitle
+      Value: For Your Dream Project
+    - ID: "e6670a96-c275-4e41-a2ef-b752d397eb10"
+      Hint: Link
+      Value: |
+        <link text="Get a Quote" linktype="external" url="https://sitecore.com" anchor="" title="Get a Quote" target="" />

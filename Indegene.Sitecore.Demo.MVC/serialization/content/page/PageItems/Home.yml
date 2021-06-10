@@ -1,0 +1,117 @@
+﻿---
+ID: "19d4b8e2-e034-48fa-94c0-f0942cacf2b1"
+Parent: "09c28929-5537-4ffe-946f-cb9c2e686ea7"
+Template: "bfc27485-b8f9-4a34-8f68-60935c75726e"
+Path: /sitecore/content/Builderz/Home
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {C0A3D3FE-464E-439C-9EAA-0564CC6952DE}
+    {2B8EF99B-6377-437C-B3D9-F70CC8B4DBD8}
+- ID: "d07a589c-b049-4f69-8d8b-25e9d42ad90e"
+  Hint: Shared ID
+  Value: ID3243875
+Languages:
+- Language: en
+  Fields:
+  - ID: "502dcb42-c094-4490-b94e-4d7a382ddb61"
+    Hint: Title
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{ADEEAB62-A2A8-4091-A5FF-6F62777B98C1}"
+              s:pt="{0AB14555-BD32-47E0-84F6-CA71997892A2}"
+              s:uid="{ADEEAB62-A2A8-4091-A5FF-6F62777B98C1}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{005BF91F-603A-4CF9-9222-24E44AD20C0D}"
+                    s:name="Field validation"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="36583822AE8E4929A6F72186989A83C3"
+                        s:id="{DA0D1AEA-0144-4A40-9AF0-3123526C9163}"
+                        s:fieldname="Title" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="2303C3CB8BEB49E695E8AE2E49F82A03"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="292FFCAF91E84842B0E8A300E1EFA25E"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="934B01FB2BC7421AB3C428854427D2CD"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{3DD88B99-03EF-4290-AFDE-9E71B2F0FBF3}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T040322Z
+    - ID: "5250cc4e-93da-4311-b80a-331470a1cf08"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "en-NZ"
+  Fields:
+  - ID: "502dcb42-c094-4490-b94e-4d7a382ddb61"
+    Hint: Title
+    Value: Welcome to New Zealand
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210604T044120Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "fr-FR"
+  Fields:
+  - ID: "502dcb42-c094-4490-b94e-4d7a382ddb61"
+    Hint: Title
+    Value: Bienvenue en France
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210604T050337Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

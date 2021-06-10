@@ -1,0 +1,18 @@
+﻿---
+ID: "507172c2-8dc7-489a-8e54-e7091455bd2a"
+Parent: "09c28929-5537-4ffe-946f-cb9c2e686ea7"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Builderz/Data
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T051650Z

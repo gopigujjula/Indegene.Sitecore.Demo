@@ -1,0 +1,77 @@
+﻿---
+ID: "38c8701f-8bde-4f2c-a984-16c0207d5b94"
+Parent: "19d4b8e2-e034-48fa-94c0-f0942cacf2b1"
+Template: "c0a3d3fe-464e-439c-9eaa-0564cc6952de"
+Path: /sitecore/content/Builderz/Home/Aboutus
+DB: master
+SharedFields:
+- ID: "61cf7151-0cbd-4db4-9738-d753a55a6e65"
+  Hint: __Enforce version presence
+  Type: Checkbox
+  Value: 0
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <campaign
+        title="New Product Launch FB Campaign-fa25a8de-36ef-4c91-8337-60e61a8eca5d"
+        id="{FA25A8DE-36EF-4C91-8337-60E61A8ECA5D}" />
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 350
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{ADEEAB62-A2A8-4091-A5FF-6F62777B98C1}"
+          s:ds="{C3F527E8-050F-440E-955E-DBA140ABD6BD}"
+          s:par="" />
+        <r
+          uid="{C3BEB1DE-FD10-4B14-92E2-931A43302E12}"
+          s:ds="{D87B7E6D-5287-4A30-8C77-8587BDEE2723}"
+          s:mvt="{85A6EE69-88C9-4E28-8FE2-1F4AAA28A134}"
+          s:par="Slidecount=1" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Fields:
+  - ID: "502dcb42-c094-4490-b94e-4d7a382ddb61"
+    Hint: Title
+    Value: About Us
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: About us
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C3BEB1DE-FD10-4B14-92E2-931A43302E12}"
+              s:par="Slidecount=3" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T050842Z
+    - ID: "5250cc4e-93da-4311-b80a-331470a1cf08"
+      Hint: NavigationTitle
+      Value: About Us

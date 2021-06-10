@@ -1,0 +1,42 @@
+﻿---
+ID: "c3f527e8-050f-440e-955e-dba140abd6bd"
+Parent: "3459304f-c321-4312-ac54-182454e802f4"
+Template: "0cdc9105-540f-416e-9846-a0416e76a4cb"
+Path: /sitecore/content/Builderz/Data/About/About Content 2
+DB: master
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b5aa83f-c4e3-4b7b-b7c7-50d43677f6dd"
+      Hint: Image
+      Value: |
+        <image mediaid="{8020BC8B-B28C-47D8-8CE7-85FA63E76AEF}" />
+    - ID: "163f6c64-92e1-43a7-8d3d-f9d8d40d5cac"
+      Hint: Title
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T051840Z
+    - ID: "6a6fdc5a-18cf-43f0-99ac-c2e5858b66d6"
+      Hint: Description
+      Value: |
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+        </p>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+        </p>
+    - ID: "86476b53-bf7a-4394-9f64-9260f2ba0f05"
+      Hint: Link
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="Learn More"  querystring="" id="{19D4B8E2-E034-48FA-94C0-F0942CACF2B1}" />
+    - ID: "be5c58d2-82b4-4c96-a61b-a3dd62a24ff2"
+      Hint: SubTitle
+      Value: 100 Years Experience

@@ -1,0 +1,14 @@
+﻿---
+ID: "3459304f-c321-4312-ac54-182454e802f4"
+Parent: "507172c2-8dc7-489a-8e54-e7091455bd2a"
+Template: "6d245433-b54e-46a1-835f-c00639661681"
+Path: /sitecore/content/Builderz/Data/About
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T051748Z

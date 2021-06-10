@@ -1,0 +1,28 @@
+﻿---
+ID: "808cf600-3ae2-42b4-9de7-c6c5f4d14b5e"
+Parent: "857deaad-e135-4781-9f70-3a6c285d6ef3"
+Template: "89fbb931-d737-4468-926d-e14e1a11ee2a"
+Path: /sitecore/content/Builderz/Data/Carousel/Slides/We Are Trusted
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T040820Z
+    - ID: "690e20b7-7b02-487c-b294-57f14a64755a"
+      Hint: Title
+      Value: We Are Trusted
+    - ID: "b7c221ec-e8b7-457c-8caf-43e5dd697517"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{8F4387DE-99DA-496C-B6A5-1DF65988D166}" ></image>
+    - ID: "c1f03551-e151-4e43-bd15-f20da557abc7"
+      Hint: Subtitle
+      Value: For Your Dream Home
+    - ID: "e6670a96-c275-4e41-a2ef-b752d397eb10"
+      Hint: Link
+      Value: |
+        <link text="Get a Quote" anchor="" linktype="internal" class="" title="Get a Quote"  querystring="" id="{38C8701F-8BDE-4F2C-A984-16C0207D5B94}" />

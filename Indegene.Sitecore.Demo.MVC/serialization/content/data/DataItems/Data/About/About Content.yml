@@ -1,0 +1,68 @@
+﻿---
+ID: "3dd88b99-03ef-4290-afde-9e71b2f0fbf3"
+Parent: "3459304f-c321-4312-ac54-182454e802f4"
+Template: "0cdc9105-540f-416e-9846-a0416e76a4cb"
+Path: /sitecore/content/Builderz/Data/About/About Content
+DB: master
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b5aa83f-c4e3-4b7b-b7c7-50d43677f6dd"
+      Hint: Image
+      Value: |
+        <image mediaid="{8020BC8B-B28C-47D8-8CE7-85FA63E76AEF}" />
+    - ID: "163f6c64-92e1-43a7-8d3d-f9d8d40d5cac"
+      Hint: Title
+      Value: Welcome to Builderz | version 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T051840Z
+    - ID: "6a6fdc5a-18cf-43f0-99ac-c2e5858b66d6"
+      Hint: Description
+      Value: |
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+        </p>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+        </p>
+    - ID: "86476b53-bf7a-4394-9f64-9260f2ba0f05"
+      Hint: Link
+      Value: |
+        <link id="{38C8701F-8BDE-4F2C-A984-16C0207D5B94}" querystring="" text="Learn More" anchor="" title="Learn More" class="" url="/Builderz/Home/Aboutus" linktype="internal" />
+    - ID: "be5c58d2-82b4-4c96-a61b-a3dd62a24ff2"
+      Hint: SubTitle
+      Value: 25 Years Experience
+- Language: "en-NZ"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b5aa83f-c4e3-4b7b-b7c7-50d43677f6dd"
+      Hint: Image
+      Value: |
+        <image mediaid="{8020BC8B-B28C-47D8-8CE7-85FA63E76AEF}" />
+    - ID: "163f6c64-92e1-43a7-8d3d-f9d8d40d5cac"
+      Hint: Title
+      Value: Welcome to Builderz | Hello World in NZ
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210604T045845Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6a6fdc5a-18cf-43f0-99ac-c2e5858b66d6"
+      Hint: Description
+      Value: |
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.</p>
+    - ID: "be5c58d2-82b4-4c96-a61b-a3dd62a24ff2"
+      Hint: SubTitle
+      Value: 25 Years Experience
