@@ -1,0 +1,21 @@
+﻿---
+ID: "86368ad2-408c-4e6e-8366-e26374c528bc"
+Parent: "0cdc9105-540f-416e-9846-a0416e76a4cb"
+Template: "0cdc9105-540f-416e-9846-a0416e76a4cb"
+Path: /sitecore/templates/Project/Builderz/Data Templates/About/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "163f6c64-92e1-43a7-8d3d-f9d8d40d5cac"
+      Hint: Title
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T051529Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

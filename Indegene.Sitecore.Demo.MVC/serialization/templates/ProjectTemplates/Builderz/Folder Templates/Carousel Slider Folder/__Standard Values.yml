@@ -1,0 +1,25 @@
+﻿---
+ID: "bb30f539-cf30-4d74-ae0f-59435edf5c44"
+Parent: "a56b34e3-b918-437b-8c7a-63ae8c9ee684"
+Template: "a56b34e3-b918-437b-8c7a-63ae8c9ee684"
+Path: /sitecore/templates/Project/Builderz/Folder Templates/Carousel Slider Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {25812AAA-6BDA-44CD-A19E-4921EBA02271}
+    {A56B34E3-B918-437B-8C7A-63AE8C9EE684}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T054652Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

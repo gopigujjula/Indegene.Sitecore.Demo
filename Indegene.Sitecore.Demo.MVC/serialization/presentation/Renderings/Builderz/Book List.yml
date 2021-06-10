@@ -1,0 +1,21 @@
+﻿---
+ID: "e54f91ca-4a1e-4a24-805d-5070f1d2043f"
+Parent: "b7bd2807-d35d-40bd-b297-98fdbef46b7b"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Project/Builderz/Book List
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: BookList
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Indegene.Sitecore.Demo.MVC.Controllers.BookController,Indegene.Sitecore.Demo.MVC
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200728T063224Z

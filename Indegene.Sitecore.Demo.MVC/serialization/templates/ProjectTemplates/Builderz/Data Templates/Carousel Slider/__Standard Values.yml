@@ -1,0 +1,23 @@
+﻿---
+ID: "a6aa5876-c563-4267-8b57-6f893ba48999"
+Parent: "25812aaa-6bda-44cd-a19e-4921eba02271"
+Template: "25812aaa-6bda-44cd-a19e-4921eba02271"
+Path: /sitecore/templates/Project/Builderz/Data Templates/Carousel Slider/__Standard Values
+DB: master
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T040637Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,45 @@
+﻿---
+ID: "c72f165e-a431-4c87-9c2a-27183cfcdfd2"
+Parent: "c77cbf36-e660-4c1a-ab94-85f172ca180a"
+Template: "c77cbf36-e660-4c1a-ab94-85f172ca180a"
+Path: /sitecore/templates/Project/Builderz/Page Templates/Book/__Standard Values
+DB: master
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 0
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{83C3EED6-3049-4026-BD16-A59310F1DD1C}">
+        <r
+          id="{1E445CBB-C0CC-47F5-9F19-2C19D3C1537D}"
+          ph="main"
+          uid="{56B482DE-EDD8-429E-AAF8-2752E3C0280A}" />
+        <r
+          id="{BE77A65A-019D-42ED-A42E-A7458096D4A6}"
+          ph="main"
+          uid="{642CAE4C-4BFE-4848-9FDB-32D9948AC80F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "24d7a5d2-d2b3-4d52-927e-c6722f6587f4"
+    Hint: Title
+    Value: $name
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190511T034601Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

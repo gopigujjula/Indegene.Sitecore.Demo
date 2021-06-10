@@ -1,0 +1,18 @@
+﻿---
+ID: "83c3eed6-3049-4026-bd16-a59310f1dd1c"
+Parent: "fe5e3a31-a734-428a-8245-152947a00771"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/Builderz/Basic Layout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/Layouts/BasicLayout.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210601T063317Z

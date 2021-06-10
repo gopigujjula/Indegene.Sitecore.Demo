@@ -1,0 +1,22 @@
+﻿---
+ID: "45593a0d-89df-4fad-a2b1-dd2eb2c063b1"
+Parent: "49f20d1c-ea1a-4518-bde7-2566e087244d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Builderz/Rendering Parameter Templates/Carousel Slider Rendering Parameters
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{8CA06D6A-B353-44E8-BC31-B528C7306971}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{64CD9A5D-2FE6-4DE2-A69B-DC9DA6B9B7AE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T061510Z

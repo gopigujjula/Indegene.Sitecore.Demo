@@ -1,0 +1,14 @@
+﻿---
+ID: "713c72b9-d355-4fd2-845c-a4a07173c8b0"
+Parent: "45593a0d-89df-4fad-a2b1-dd2eb2c063b1"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Builderz/Rendering Parameter Templates/Carousel Slider Rendering Parameters/Slider Parameters
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T061537Z

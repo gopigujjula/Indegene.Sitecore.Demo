@@ -1,0 +1,28 @@
+﻿---
+ID: "c0a3d3fe-464e-439c-9eaa-0564cc6952de"
+Parent: "dace5996-b50f-4ae1-84fd-6823238c0554"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Builderz/Page Templates/About Us Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: /~/icon/applicationsv2/32x32/about.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {D1A71A1B-1731-4F0A-B5FB-1E0C72647CD6}
+    {401B354C-433F-4488-900D-75914AC6AEFC}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{4E744B57-76A2-4D75-9D63-B88F00CF2D8F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T050532Z

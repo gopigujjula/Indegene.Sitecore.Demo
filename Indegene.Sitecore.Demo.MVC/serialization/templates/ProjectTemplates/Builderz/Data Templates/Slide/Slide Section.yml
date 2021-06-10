@@ -1,0 +1,14 @@
+﻿---
+ID: "c202fa9e-67be-4294-a92a-f8a222889fdd"
+Parent: "89fbb931-d737-4468-926d-e14e1a11ee2a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Builderz/Data Templates/Slide/Slide Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T040519Z

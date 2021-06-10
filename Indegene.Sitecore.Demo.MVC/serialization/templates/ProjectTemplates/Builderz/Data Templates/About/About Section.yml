@@ -1,0 +1,14 @@
+﻿---
+ID: "dbd7ba14-464d-4b35-aaa3-de06c7c38174"
+Parent: "0cdc9105-540f-416e-9846-a0416e76a4cb"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Builderz/Data Templates/About/About Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T051516Z

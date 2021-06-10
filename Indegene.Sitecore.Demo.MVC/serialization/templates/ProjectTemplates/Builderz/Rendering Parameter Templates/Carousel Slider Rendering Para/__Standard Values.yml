@@ -1,0 +1,14 @@
+﻿---
+ID: "64cd9a5d-2fe6-4de2-a69b-dc9da6b9b7ae"
+Parent: "45593a0d-89df-4fad-a2b1-dd2eb2c063b1"
+Template: "45593a0d-89df-4fad-a2b1-dd2eb2c063b1"
+Path: /sitecore/templates/Project/Builderz/Rendering Parameter Templates/Carousel Slider Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T061800Z

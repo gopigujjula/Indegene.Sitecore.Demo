@@ -1,0 +1,14 @@
+﻿---
+ID: "8e0e8f5c-994a-4979-93fd-e6ceb84b398b"
+Parent: "25812aaa-6bda-44cd-a19e-4921eba02271"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Builderz/Data Templates/Carousel Slider/Slider section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T040634Z

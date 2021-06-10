@@ -1,0 +1,21 @@
+﻿---
+ID: "cbf0ddde-8f0b-46a7-aa7c-a43e28b96810"
+Parent: "401b354c-433f-4488-900d-75914ac6aefc"
+Template: "401b354c-433f-4488-900d-75914ac6aefc"
+Path: /sitecore/templates/Project/Builderz/Base Templates/_Navigation/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210604T063023Z
+    - ID: "5250cc4e-93da-4311-b80a-331470a1cf08"
+      Hint: NavigationTitle
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "752376f6-3df4-4d35-bb42-c588d852dba3"
+Parent: "5ae59742-a687-4d97-8ab4-4b577166e9ff"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Builderz/Folder Templates
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T054609Z

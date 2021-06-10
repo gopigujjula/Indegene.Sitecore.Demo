@@ -1,0 +1,14 @@
+﻿---
+ID: "39a88b0f-fb4f-40a0-9388-eb101e94c933"
+Parent: "15451229-7534-44ef-815d-d93d6170bfcb"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Images/Builderz
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T052259Z
